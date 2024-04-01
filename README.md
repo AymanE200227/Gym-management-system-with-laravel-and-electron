@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Gym-management-system-with-laravel-and-electron
+The application features a hierarchy of admins, including a super admin with control over sub-admins. Admins manage membership plans,discounts, and view registration statistics.Sub-admins handle trainers, scheduling, and member check-ins,ensuring adherence to membership rules.Automated reminders facilitate smooth operations and membership renewals.
+>>>>>>> 72bae2a90ad94b8cb6821c82ce6db75c30aff163
