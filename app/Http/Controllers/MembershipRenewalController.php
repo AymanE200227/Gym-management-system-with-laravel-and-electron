@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\MembershipRenewal;
+use App\Models\MembershipRenewal;
 use Illuminate\Http\Request;
 
 class MembershipRenewalController extends Controller
@@ -41,7 +41,7 @@ class MembershipRenewalController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\MembershipRenewal  $membershipRenewal
+     * @param  \App\Models\MembershipRenewal  $membershipRenewal
      * @return \Illuminate\Http\Response
      */
     public function show(MembershipRenewal $membershipRenewal)
@@ -52,7 +52,7 @@ class MembershipRenewalController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\MembershipRenewal  $membershipRenewal
+     * @param  \App\Models\MembershipRenewal  $membershipRenewal
      * @return \Illuminate\Http\Response
      */
     public function edit(MembershipRenewal $membershipRenewal)
@@ -64,7 +64,7 @@ class MembershipRenewalController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\MembershipRenewal  $membershipRenewal
+     * @param  \App\Models\MembershipRenewal  $membershipRenewal
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, MembershipRenewal $membershipRenewal)
@@ -75,7 +75,7 @@ class MembershipRenewalController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\MembershipRenewal  $membershipRenewal
+     * @param  \App\Models\MembershipRenewal  $membershipRenewal
      * @return \Illuminate\Http\Response
      */
     public function destroy(MembershipRenewal $membershipRenewal)

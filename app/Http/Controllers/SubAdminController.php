@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\SubAdmin;
+use App\Models\SubAdmin;
 use Illuminate\Http\Request;
 
 class SubAdminController extends Controller
@@ -41,7 +41,7 @@ class SubAdminController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\SubAdmin  $subAdmin
+     * @param  \App\Models\SubAdmin  $subAdmin
      * @return \Illuminate\Http\Response
      */
     public function show(SubAdmin $subAdmin)
@@ -52,7 +52,7 @@ class SubAdminController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\SubAdmin  $subAdmin
+     * @param  \App\Models\SubAdmin  $subAdmin
      * @return \Illuminate\Http\Response
      */
     public function edit(SubAdmin $subAdmin)
@@ -64,7 +64,7 @@ class SubAdminController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\SubAdmin  $subAdmin
+     * @param  \App\Models\SubAdmin  $subAdmin
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, SubAdmin $subAdmin)
@@ -75,7 +75,7 @@ class SubAdminController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\SubAdmin  $subAdmin
+     * @param  \App\Models\SubAdmin  $subAdmin
      * @return \Illuminate\Http\Response
      */
     public function destroy(SubAdmin $subAdmin)

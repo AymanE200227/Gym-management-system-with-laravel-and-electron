@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Trainer;
+use App\Models\Trainer;
 use Illuminate\Http\Request;
 
 class TrainerController extends Controller
@@ -41,7 +41,7 @@ class TrainerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Trainer  $trainer
+     * @param  \App\Models\Trainer  $trainer
      * @return \Illuminate\Http\Response
      */
     public function show(Trainer $trainer)
@@ -52,7 +52,7 @@ class TrainerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Trainer  $trainer
+     * @param  \App\Models\Trainer  $trainer
      * @return \Illuminate\Http\Response
      */
     public function edit(Trainer $trainer)
@@ -64,7 +64,7 @@ class TrainerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Trainer  $trainer
+     * @param  \App\Models\Trainer  $trainer
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Trainer $trainer)
@@ -75,7 +75,7 @@ class TrainerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Trainer  $trainer
+     * @param  \App\Models\Trainer  $trainer
      * @return \Illuminate\Http\Response
      */
     public function destroy(Trainer $trainer)

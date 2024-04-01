@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\MembershipRegistration;
+use App\Models\MembershipRegistration;
 use Illuminate\Http\Request;
 
 class MembershipRegistrationController extends Controller
@@ -41,7 +41,7 @@ class MembershipRegistrationController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\MembershipRegistration  $membershipRegistration
+     * @param  \App\Models\MembershipRegistration  $membershipRegistration
      * @return \Illuminate\Http\Response
      */
     public function show(MembershipRegistration $membershipRegistration)
@@ -52,7 +52,7 @@ class MembershipRegistrationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\MembershipRegistration  $membershipRegistration
+     * @param  \App\Models\MembershipRegistration  $membershipRegistration
      * @return \Illuminate\Http\Response
      */
     public function edit(MembershipRegistration $membershipRegistration)
@@ -64,7 +64,7 @@ class MembershipRegistrationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\MembershipRegistration  $membershipRegistration
+     * @param  \App\Models\MembershipRegistration  $membershipRegistration
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, MembershipRegistration $membershipRegistration)
@@ -75,7 +75,7 @@ class MembershipRegistrationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\MembershipRegistration  $membershipRegistration
+     * @param  \App\Models\MembershipRegistration  $membershipRegistration
      * @return \Illuminate\Http\Response
      */
     public function destroy(MembershipRegistration $membershipRegistration)
