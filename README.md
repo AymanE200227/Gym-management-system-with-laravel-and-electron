@@ -1,0 +1,2 @@
+# Gym-management-system-with-laravel-and-electron
+The application features a hierarchy of admins, including a super admin with control over sub-admins. Admins manage membership plans,discounts, and view registration statistics.Sub-admins handle trainers, scheduling, and member check-ins,ensuring adherence to membership rules.Automated reminders facilitate smooth operations and membership renewals.
