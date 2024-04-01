@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\DiscountOffer;
+use App\Models\DiscountOffer;
 use Illuminate\Http\Request;
 
 class DiscountOfferController extends Controller
@@ -41,7 +41,7 @@ class DiscountOfferController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\DiscountOffer  $discountOffer
+     * @param  \App\Models\DiscountOffer  $discountOffer
      * @return \Illuminate\Http\Response
      */
     public function show(DiscountOffer $discountOffer)
@@ -52,7 +52,7 @@ class DiscountOfferController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\DiscountOffer  $discountOffer
+     * @param  \App\Models\DiscountOffer  $discountOffer
      * @return \Illuminate\Http\Response
      */
     public function edit(DiscountOffer $discountOffer)
@@ -64,7 +64,7 @@ class DiscountOfferController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\DiscountOffer  $discountOffer
+     * @param  \App\Models\DiscountOffer  $discountOffer
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, DiscountOffer $discountOffer)
@@ -75,7 +75,7 @@ class DiscountOfferController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\DiscountOffer  $discountOffer
+     * @param  \App\Models\DiscountOffer  $discountOffer
      * @return \Illuminate\Http\Response
      */
     public function destroy(DiscountOffer $discountOffer)
